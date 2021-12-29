@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FC802030B857BE466665FD8 /* Pods_Camera_Recogniser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BB27202AD2653128952E79 /* Pods_Camera_Recogniser.framework */; };
+		A9376FC9277CB96B004BE215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9376FC8277CB96B004BE215 /* AppDelegate.swift */; };
+		A9376FCB277CB96B004BE215 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9376FCA277CB96B004BE215 /* SceneDelegate.swift */; };
+		A9376FCD277CB96B004BE215 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9376FCC277CB96B004BE215 /* ViewController.swift */; };
+		A9376FD0277CB96B004BE215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9376FCE277CB96B004BE215 /* Main.storyboard */; };
+		A9376FD2277CB96C004BE215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9376FD1277CB96C004BE215 /* Assets.xcassets */; };
+		A9376FD5277CB96D004BE215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9376FD3277CB96D004BE215 /* LaunchScreen.storyboard */; };
+		A9376FDE277CB97B004BE215 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A9376FDD277CB97B004BE215 /* MobileNetV2.mlmodel */; };
+		A9376FE1277CB99B004BE215 /* CameraPredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9376FE0277CB99B004BE215 /* CameraPredictionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C2CC61784F741D7EAE02ED8 /* Pods-Camera-Recogniser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera-Recogniser.debug.xcconfig"; path = "Target Support Files/Pods-Camera-Recogniser/Pods-Camera-Recogniser.debug.xcconfig"; sourceTree = "<group>"; };
+		A7BB27202AD2653128952E79 /* Pods_Camera_Recogniser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camera_Recogniser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9376FC5277CB96B004BE215 /* Camera-Recogniser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera-Recogniser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9376FC8277CB96B004BE215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9376FCA277CB96B004BE215 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9376FCC277CB96B004BE215 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9376FCF277CB96B004BE215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9376FD1277CB96C004BE215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9376FD4277CB96D004BE215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9376FD6277CB96D004BE215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9376FDD277CB97B004BE215 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		A9376FE0277CB99B004BE215 /* CameraPredictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPredictionView.swift; sourceTree = "<group>"; };
+		D7274790FCFF1095169EF0CD /* Pods-Camera-Recogniser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera-Recogniser.release.xcconfig"; path = "Target Support Files/Pods-Camera-Recogniser/Pods-Camera-Recogniser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9376FC2277CB96B004BE215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC802030B857BE466665FD8 /* Pods_Camera_Recogniser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		319BC9E2D1720ACAD418FD4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C2CC61784F741D7EAE02ED8 /* Pods-Camera-Recogniser.debug.xcconfig */,
+				D7274790FCFF1095169EF0CD /* Pods-Camera-Recogniser.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9376FBC277CB96B004BE215 = {
+			isa = PBXGroup;
+			children = (
+				A9376FC7277CB96B004BE215 /* Camera-Recogniser */,
+				A9376FC6277CB96B004BE215 /* Products */,
+				319BC9E2D1720ACAD418FD4A /* Pods */,
+				D4C40098ABA4413368BE73D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9376FC6277CB96B004BE215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9376FC5277CB96B004BE215 /* Camera-Recogniser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9376FC7277CB96B004BE215 /* Camera-Recogniser */ = {
+			isa = PBXGroup;
+			children = (
+				A9376FC8277CB96B004BE215 /* AppDelegate.swift */,
+				A9376FDD277CB97B004BE215 /* MobileNetV2.mlmodel */,
+				A9376FCA277CB96B004BE215 /* SceneDelegate.swift */,
+				A9376FCC277CB96B004BE215 /* ViewController.swift */,
+				A9376FE0277CB99B004BE215 /* CameraPredictionView.swift */,
+				A9376FCE277CB96B004BE215 /* Main.storyboard */,
+				A9376FD1277CB96C004BE215 /* Assets.xcassets */,
+				A9376FD3277CB96D004BE215 /* LaunchScreen.storyboard */,
+				A9376FD6277CB96D004BE215 /* Info.plist */,
+			);
+			path = "Camera-Recogniser";
+			sourceTree = "<group>";
+		};
+		D4C40098ABA4413368BE73D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB27202AD2653128952E79 /* Pods_Camera_Recogniser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9376FC4277CB96B004BE215 /* Camera-Recogniser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9376FD9277CB96D004BE215 /* Build configuration list for PBXNativeTarget "Camera-Recogniser" */;
+			buildPhases = (
+				246CCFD3DAF749960266EBD9 /* [CP] Check Pods Manifest.lock */,
+				A9376FC1277CB96B004BE215 /* Sources */,
+				A9376FC2277CB96B004BE215 /* Frameworks */,
+				A9376FC3277CB96B004BE215 /* Resources */,
+				275CFA90F4AF81AD8B46F6C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camera-Recogniser";
+			productName = "Camera-Recogniser";
+			productReference = A9376FC5277CB96B004BE215 /* Camera-Recogniser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9376FBD277CB96B004BE215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A9376FC4277CB96B004BE215 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A9376FC0277CB96B004BE215 /* Build configuration list for PBXProject "Camera-Recogniser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9376FBC277CB96B004BE215;
+			productRefGroup = A9376FC6277CB96B004BE215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9376FC4277CB96B004BE215 /* Camera-Recogniser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9376FC3277CB96B004BE215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9376FD5277CB96D004BE215 /* LaunchScreen.storyboard in Resources */,
+				A9376FD2277CB96C004BE215 /* Assets.xcassets in Resources */,
+				A9376FD0277CB96B004BE215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		246CCFD3DAF749960266EBD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Camera-Recogniser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		275CFA90F4AF81AD8B46F6C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camera-Recogniser/Pods-Camera-Recogniser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camera-Recogniser/Pods-Camera-Recogniser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Camera-Recogniser/Pods-Camera-Recogniser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9376FC1277CB96B004BE215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9376FCD277CB96B004BE215 /* ViewController.swift in Sources */,
+				A9376FC9277CB96B004BE215 /* AppDelegate.swift in Sources */,
+				A9376FDE277CB97B004BE215 /* MobileNetV2.mlmodel in Sources */,
+				A9376FE1277CB99B004BE215 /* CameraPredictionView.swift in Sources */,
+				A9376FCB277CB96B004BE215 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9376FCE277CB96B004BE215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9376FCF277CB96B004BE215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9376FD3277CB96D004BE215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9376FD4277CB96D004BE215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9376FD7277CB96D004BE215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9376FD8277CB96D004BE215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9376FDA277CB96D004BE215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2CC61784F741D7EAE02ED8 /* Pods-Camera-Recogniser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F5H7LLA5P;
+				INFOPLIST_FILE = "Camera-Recogniser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hasan.Camera-Recogniser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9376FDB277CB96D004BE215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7274790FCFF1095169EF0CD /* Pods-Camera-Recogniser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F5H7LLA5P;
+				INFOPLIST_FILE = "Camera-Recogniser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hasan.Camera-Recogniser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9376FC0277CB96B004BE215 /* Build configuration list for PBXProject "Camera-Recogniser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9376FD7277CB96D004BE215 /* Debug */,
+				A9376FD8277CB96D004BE215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9376FD9277CB96D004BE215 /* Build configuration list for PBXNativeTarget "Camera-Recogniser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9376FDA277CB96D004BE215 /* Debug */,
+				A9376FDB277CB96D004BE215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9376FBD277CB96B004BE215 /* Project object */;
+}

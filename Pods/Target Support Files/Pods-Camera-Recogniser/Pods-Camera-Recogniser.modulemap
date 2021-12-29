@@ -1,0 +1,6 @@
+framework module Pods_Camera_Recogniser {
+  umbrella header "Pods-Camera-Recogniser-umbrella.h"
+
+  export *
+  module * { export * }
+}
